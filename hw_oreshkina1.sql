@@ -27,4 +27,4 @@ select * from countrylanguage where Language IN ("English", "Russian");
 -- 13 получить все города, населения которых от 1 000 000 до 5 000 000 из таблицы city 
 select * from city where Population BETWEEN 1000000 and 5000000;
 -- 14 узнаем все страны с буквами "St" в названии
-select * from country where Name LIKE "%East%";
+select * from country where Name LIKE "%St%";
